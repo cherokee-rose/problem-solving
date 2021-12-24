@@ -33,7 +33,7 @@
  
 
     Constraints:
-        * -231 <= dividend, divisor <= 231 - 1
+        * -2^31 <= dividend, divisor <= 2^31 - 1
         * divisor != 0
 */
 
@@ -42,8 +42,31 @@
  * @param {number} divisor
  * @return {number}
  */
- var divide = function(dividend, divisor) {
-    // TODO
+ var divide = function(dividend, divisor) { 
+    let isNegative = false;
+
+    if ((dividend ^ divisor) < 0) {
+        isNegative = true;
+        
+    }
+    
+    dividend = Math.abs(dividend);
+    divisor = Math.abs(divisor);
+
+    let result;
+    if (divisor == 1) {
+        result = !isNegative && (dividend == 2 ** 31) ? dividend - 1 : dividend;
+        
+    } else if (dividend < divisor) {
+        result = 0;
+
+    } else {
+        result = 2 ** (Math.log2(dividend) - Math.log2(divisor));
+        result = (result - Math.floor(result)) < 0.9999999999 ? Math.floor(result) : Math.ceil(result);
+    
+    }
+
+    return isNegative ? -result : result;
 };
 
 
