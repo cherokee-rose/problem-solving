@@ -4,7 +4,7 @@
 
 * Find the Duplicate Number
 - [Problem](https://leetcode.com/problems/find-the-duplicate-number/submissions/)
-- [Solution](LeetCode/algorithms/Bit Manipulation/Find the Duplicate Number/Solution.js)
+- [Solution]('LeetCode/algorithms/Bit Manipulation/Find the Duplicate Number/Solution.js')
 * Divide Two Integers
 - [Problem](https://leetcode.com/problems/divide-two-integers/)
 - [Solution](./LeetCode/algorithms/Bit Manipulation/Divide Two Integers)
