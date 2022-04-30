@@ -112,6 +112,22 @@
 - [Problem](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
 - [Solution](LeetCode/algorithms/array/sell-stock/solution.ts)
 
+* Group Anagrams
+- [Problem](https://leetcode.com/problems/group-anagrams/)
+- [Solution](algorithms\array\group-anagrams\solution.ts)
+
+* Contains Duplicate
+- [Problem](https://leetcode.com/problems/contains-duplicate/)
+- [Solution](algorithms\array\contains-duplicate\solution.ts)
+
+* Valid Anagram
+- [Problem](https://leetcode.com/problems/valid-anagram/)
+- [Soltion](algorithms\array\valid-anagram\solution.ts)
+
+* Two Sum
+- [Problem](https://leetcode.com/problems/two-sum/)
+- [Solution](algorithms\array\two-sum\solution.ts)
+
 ## Dynamic Programming
 
 * Pascal's Triangle II
