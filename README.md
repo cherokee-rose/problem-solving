@@ -128,6 +128,10 @@
 - [Problem](https://leetcode.com/problems/two-sum/)
 - [Solution](algorithms\array\two-sum\solution.ts)
 
+* Top K Frequent Elements
+- [Problem](https://leetcode.com/problems/top-k-frequent-elements/)
+- [Solution](algorithms/array/top-k-frequent-elements/solution.ts)
+
 ## Dynamic Programming
 
 * Pascal's Triangle II
