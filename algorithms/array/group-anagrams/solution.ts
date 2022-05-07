@@ -24,63 +24,35 @@
     * strs[i] consists of lowercase English letters.
 */
 
+/* 
+  The idea is to construct a map with key being an array of counts
+  of letters in a string and the value being a group of string that has the same 
+  count pattern.
+
+  Time complexity: O(n * m)
+  Space complexity: O(n)
+*/
 function groupAnagrams(strs: string[]): string[][] {
-  let groups: string[][] = [[strs[0]]];
+  let hashMap: { [count: string]: string[] } = {};
 
-  // Iterate over given strings and check if
-  // the given string is anagram of the first string of a group.
-  // If so, add that string to the group; otherwise, create a new group
-  // with the first string being that given string.
-  
-  for (let i = 1; i < strs.length; i += 1) { // O(n)
-    for (let j = 0; j < groups.length; j += 1) { // O(n)
-      if (isAnagram(strs[i], groups[j][0])) { // O(m)
-        // matched
-        groups[j].push(strs[i]);
-        break;
-      } else if (j === groups.length - 1) {
-        // not match
-        groups.push([strs[i]]);
-        j += 1;
-      }
+  for (let i = 0; i < strs.length; i += 1) {
+    // Construct the key
+    let count: any = new Array(26);
+    count.fill(0);
+    for (let j = 0; j < strs[i].length; j += 1) {
+      count[strs[i].charCodeAt(j) - 97] += 1;
+    }
+
+    // Update the map
+    count = count.toString();
+    if (hashMap[count] === undefined) {
+      hashMap[count] = [strs[i]];
+    } else {
+      hashMap[count].push(strs[i]);
     }
   }
 
-  return groups;
+  return Object.values(hashMap);
 }
 
-// O(n)
-function isAnagram(str: string, tested: string): boolean {
-  if (str.length !== tested.length) {
-    return false;
-  }
-
-  // Construct the map of characters of the second string
-  let charMap: {[char: string]: number} = {};
-  let char;
-  for (let i = 0; i < tested.length; i += 1) {
-    char = tested.charAt(i);
-
-    if (charMap[char]) {
-      charMap[char] += 1;
-    } else {
-      charMap[char] = 1;
-    }
-  }
-
-  // Match all the characters of the first string with
-  // all the characters of the second string
-  for (let i = 0; i < str.length; i += 1) {
-    char = str.charAt(i);
-
-    if (!charMap[char]) {
-      return false;
-    } else {
-      charMap[char] -= 1;
-    }
-  }
-  
-  return true;
-}
-
-console.log(groupAnagrams(["eat", "tea", "tan", "ate", "nat", "bat"]));
+console.log(groupAnagrams(['eat', 'tea', 'tan', 'ate', 'nat', 'bat']));

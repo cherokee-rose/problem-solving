@@ -114,7 +114,7 @@
 
 * Group Anagrams
 - [Problem](https://leetcode.com/problems/group-anagrams/)
-- [Solution](algorithms\array\group-anagrams\solution.ts)
+- [Solution](algorithms/array/group-anagrams/solution.ts)
 
 * Contains Duplicate
 - [Problem](https://leetcode.com/problems/contains-duplicate/)
