@@ -128,6 +128,18 @@
 - [Problem](https://leetcode.com/problems/two-sum/)
 - [Solution](algorithms\array\two-sum\solution.ts)
 
+* Top K Frequent Elementsew
+- [Problem](https://leetcode.com/problems/top-k-frequent-elements/)
+- [Solution](algorithms/array/top-k-frequent-elements/solution.ts)
+
+* Product of Array Except Self
+- [Problem](https://leetcode.com/problems/product-of-array-except-self/)
+- [Solution](algorithms/array/product-of-array-except-self/solution.ts)
+
+* Valid Sudoku
+- [Problem](https://leetcode.com/problems/valid-sudoku/)
+- [Solution](algorithms/array/valid-sudoku/solution.ts)
+
 ## Dynamic Programming
 
 * Pascal's Triangle II
