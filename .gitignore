@@ -1,8 +1,6 @@
 *.idea
 *.vscode
 *.txt
-*.py
-python
 todo.md
 node_modules
 package*.json
