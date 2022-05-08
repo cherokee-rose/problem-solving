@@ -140,6 +140,16 @@
 - [Problem](https://leetcode.com/problems/valid-sudoku/)
 - [Solution](algorithms/array/valid-sudoku/solution.ts)
 
+* Longest Consecutive Sequence
+- [Problem](https://leetcode.com/problems/longest-consecutive-sequence/)
+- [Solution](algorithms/array/longest-consecutive-sequence/solution.py)
+
+## Two Pointers
+
+* Valid Palindrome
+- [Problem](https://leetcode.com/problems/valid-palindrome/submissions/)
+- [Solution](algorithms/two-pointers/valid-palindrome/solution.py)
+
 ## Dynamic Programming
 
 * Pascal's Triangle II
