@@ -150,6 +150,8 @@
 - [Problem](https://leetcode.com/problems/valid-palindrome/submissions/)
 - [Solution](algorithms/two-pointers/valid-palindrome/solution.py)
 
+* Two Sum 
+
 ## Dynamic Programming
 
 * Pascal's Triangle II
