@@ -152,6 +152,9 @@
 
 * Two Sum 
 
+- [Problem](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
+- [Solution](algorithms/two-pointers/two-sum-2/solution.py)
+
 ## Dynamic Programming
 
 * Pascal's Triangle II
