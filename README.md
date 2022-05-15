@@ -155,6 +155,11 @@
 - [Problem](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
 - [Solution](algorithms/two-pointers/two-sum-2/solution.py)
 
+* 3Sum
+
+- [Problem](https://leetcode.com/problems/3sum/)
+- [Solution](algorithms/two-pointers/3Sum/solution.py)
+
 ## Dynamic Programming
 
 * Pascal's Triangle II

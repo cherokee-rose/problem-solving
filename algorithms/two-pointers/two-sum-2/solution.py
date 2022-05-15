@@ -34,7 +34,6 @@ Constraints:
     * The tests are generated such that there is exactly one solution.
 """
 
-
 class Solution(object):
     def twoSum(self, numbers, target):
         left = 0
@@ -50,3 +49,4 @@ class Solution(object):
                 left += 1
 
         return [left + 1, right + 1]
+
