@@ -24,41 +24,41 @@ Constraints:
 """
 
 from asyncio import constants
+from copy import copy
 
 
 class Solution(object):
     def threeSum(self, nums):
-        hash_set = set()
-        for n in nums: # O(n)
-            hash_set.add(n)
-        
-        triplets = []
+        sorted_nums = sorted(nums)
+        if len(sorted_nums) < 3 or sorted_nums[0] ^ sorted_nums[-1] > 0:
+            return []
 
-        if len(nums) >= 3 and hash_set == {0}:
-            triplets.append(0)
-            triplets.append(0)
-            triplets.append(0)
-        else:
-            sorted_nums = sorted(nums) # O(n log n)
-            l = 0
-            while sorted_nums[l] <= 0: # O(n)
-                r = len(sorted_nums) - 1
+        triplets = set()
+        l = 0
+        hash_set = set()
+        while sorted_nums[l] < 0:
+            r = len(sorted_nums) - 1
+            third_value = 0 - (sorted_nums[l] + sorted_nums[r])
+
+            while third_value <= sorted_nums[-1] and l < r:
+                if third_value in hash_set:
+                    triplet = tuple(
+                        sorted([sorted_nums[l], third_value, sorted_nums[r]]))
+                    if triplet not in triplets:
+                        triplets.add(triplet)
+                else:
+                    hash_set.add(sorted_nums[r])
+
+                r -= 1
                 third_value = 0 - (sorted_nums[l] + sorted_nums[r])
 
-                while third_value > sorted_nums[l] and \
-                      third_value < sorted_nums[r] and \
-                      third_value in hash_set:
-                      
-                    
+            hash_set = set()
+            l += 1
 
-        return triplets   
-        
-                
+        if sorted_nums[l] == 0 \
+           and l + 2 < len(sorted_nums) \
+           and sorted_nums[l + 2] == 0:
+            triplets.add(tuple([0, 0, 0]))
 
-print(Solution().threeSum([-1,0,1,2,-1,-4,-2,-3,3,0,4]))
+        return list(triplets)
 
-"""
-sorted = [-4, -3, -2, -1, -1, 0, 0, 1, 2, 3, 4]
-
-
-"""
