@@ -61,4 +61,4 @@ class Solution(object):
             triplets.add(tuple([0, 0, 0]))
 
         return list(triplets)
-
+        
