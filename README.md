@@ -160,6 +160,11 @@
 - [Problem](https://leetcode.com/problems/3sum/)
 - [Solution](algorithms/two-pointers/3Sum/solution.py)
 
+* Container With Most Water
+
+- [Problem](https://leetcode.com/problems/container-with-most-water/submissions/)
+- [Solution](algorithms/two-pointers/container-with-most-water/solution.py)
+
 ## Dynamic Programming
 
 * Pascal's Triangle II
