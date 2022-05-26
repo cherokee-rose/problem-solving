@@ -165,6 +165,13 @@
 - [Problem](https://leetcode.com/problems/container-with-most-water/submissions/)
 - [Solution](algorithms/two-pointers/container-with-most-water/solution.py)
 
+## Sliding Window
+
+* Longest Substring Without Repeating Characters
+
+- [Problem](https://leetcode.com/problems/longest-substring-without-repeating-characters/submissions/)
+- [Solution](algorithms/sliding-window/longest-substring-without-repeating-chars/solution.py)
+
 ## Dynamic Programming
 
 * Pascal's Triangle II
