@@ -177,6 +177,11 @@
 - [Problem](https://leetcode.com/problems/longest-substring-without-repeating-characters/submissions/)
 - [Solution](algorithms/sliding-window/longest-substring-without-repeating-chars/solution.py)
 
+* Longest Repeating Character Replacement
+
+- [Problem](https://leetcode.com/problems/longest-repeating-character-replacement/)
+- [Solution](algorithms/sliding-window/longest-repeating-character-replacement/solution.py)
+
 ## Dynamic Programming
 
 * Pascal's Triangle II
