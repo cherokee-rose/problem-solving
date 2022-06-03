@@ -170,6 +170,13 @@
 - [Problem](https://leetcode.com/problems/trapping-rain-water/)
 - [Solution](algorithms/two-pointers/trapping-rain-water)
 
+## Sliding Window
+
+* Longest Substring Without Repeating Characters
+
+- [Problem](https://leetcode.com/problems/longest-substring-without-repeating-characters/submissions/)
+- [Solution](algorithms/sliding-window/longest-substring-without-repeating-chars/solution.py)
+
 ## Dynamic Programming
 
 * Pascal's Triangle II
