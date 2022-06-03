@@ -165,6 +165,11 @@
 - [Problem](https://leetcode.com/problems/container-with-most-water/submissions/)
 - [Solution](algorithms/two-pointers/container-with-most-water/solution.py)
 
+* Trapping Rain Water
+
+- [Problem](https://leetcode.com/problems/trapping-rain-water/)
+- [Solution](algorithms/two-pointers/trapping-rain-water)
+
 ## Dynamic Programming
 
 * Pascal's Triangle II
