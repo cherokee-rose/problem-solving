@@ -197,6 +197,13 @@
 - [Problem](https://leetcode.com/problems/sliding-window-maximum/)
 - [Solution](algorithms/sliding-window/sliding-window-maximum/solution.py)
 
+## Stack
+
+* Valid Parentheses
+
+- [Problem](https://leetcode.com/problems/valid-parentheses/)
+- [Solution]()
+
 ## Dynamic Programming
 
 * Pascal's Triangle II
