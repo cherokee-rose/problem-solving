@@ -182,6 +182,16 @@
 - [Problem](https://leetcode.com/problems/longest-repeating-character-replacement/)
 - [Solution](algorithms/sliding-window/longest-repeating-character-replacement/solution.py)
 
+* Permutation in String
+
+- [Problem](https://leetcode.com/problems/permutation-in-string/)
+- [Solution](algorithms/sliding-window/permutation-in-string/solution.py)
+
+* Minimum Window Substring
+
+- [Problem](https://leetcode.com/problems/minimum-window-substring/)
+- [Solution](algorithms/sliding-window/minimum-window-substring/solution.py)
+
 ## Dynamic Programming
 
 * Pascal's Triangle II
