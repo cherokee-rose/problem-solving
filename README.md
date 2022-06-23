@@ -28,6 +28,7 @@
 - [Problem](https://leetcode.com/problems/sum-of-two-integers/)
 - [Solution](./LeetCode/algorithms/Bit Manipulation/Sum of Two Integers)
 
+
 ## Math
 
 * Climbing Stairs
@@ -90,6 +91,7 @@
 - [Problem](https://leetcode.com/problems/shuffle-an-array/)
 - [Solution](LeetCode/algorithms/Math/shuffle-array/solution.ts)
 
+
 ## Array
 
 * Remove Duplicates from Sorted Array
@@ -144,6 +146,7 @@
 - [Problem](https://leetcode.com/problems/longest-consecutive-sequence/)
 - [Solution](algorithms/array/longest-consecutive-sequence/solution.py)
 
+
 ## Two Pointers
 
 * Valid Palindrome
@@ -169,6 +172,7 @@
 
 - [Problem](https://leetcode.com/problems/trapping-rain-water/)
 - [Solution](algorithms/two-pointers/trapping-rain-water)
+
 
 ## Sliding Window
 
@@ -197,12 +201,24 @@
 - [Problem](https://leetcode.com/problems/sliding-window-maximum/)
 - [Solution](algorithms/sliding-window/sliding-window-maximum/solution.py)
 
+
 ## Stack
 
 * Valid Parentheses
 
 - [Problem](https://leetcode.com/problems/valid-parentheses/)
-- [Solution]()
+- [Solution](algorithms/stack/valid-parentheses/solution.py)
+
+* Min-Stack
+
+- [Problem](https://leetcode.com/problems/min-stack/)
+- [Solution](algorithms/stack/min-stack/solution.py)
+
+* Daily Temperatures
+
+- [Problem](https://leetcode.com/problems/daily-temperatures/)
+- [Solution](algorithms/stack/daily-temperature/solution.py)
+
 
 ## Dynamic Programming
 
