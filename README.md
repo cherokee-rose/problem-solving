@@ -219,6 +219,11 @@
 - [Problem](https://leetcode.com/problems/daily-temperatures/)
 - [Solution](algorithms/stack/daily-temperature/solution.py)
 
+* Car Fleet
+
+- [Problem](https://leetcode.com/problems/car-fleet/submissions/)
+- [Solution](algorithms/stack/car-fleet/solution.py)
+
 
 ## Dynamic Programming
 
