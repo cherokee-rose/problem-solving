@@ -224,6 +224,11 @@
 - [Problem](https://leetcode.com/problems/car-fleet/submissions/)
 - [Solution](algorithms/stack/car-fleet/solution.py)
 
+* Largest Rectangle in Histogram
+
+- [Problem](https://leetcode.com/problems/largest-rectangle-in-histogram/)
+- [Solution](algorithms/stack/largest-rectangle-in-histogram/solution.py)
+
 
 ## Dynamic Programming
 
