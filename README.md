@@ -229,6 +229,11 @@
 - [Problem](https://leetcode.com/problems/largest-rectangle-in-histogram/)
 - [Solution](algorithms/stack/largest-rectangle-in-histogram/solution.py)
 
+## Binary Search
+
+* [Problem](https://leetcode.com/problems/search-a-2d-matrix/)
+* [Solution](algorithms/binary-search/search-2d-matrix/solution.py)
+
 
 ## Dynamic Programming
 
